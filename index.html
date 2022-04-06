@@ -3,20 +3,45 @@
 <head>
 <title>Web Welcome</title>
 <meta charset="utf-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VTDNQQ1S6W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VTDNQQ1S6W');
+</script>
+
+<style>
+h1 {width: 93.5%; border-bottom: 14px solid black; padding: 30px;}
+h1 a {text-decoration: none;}
+ol { margin-top:0;}
+
+body {margin : 0;}
+@media all and (min-width: 480px) {
+    #container {
+    display:grid;
+    grid-template-columns: 150px 1fr;
+}
+ol {border-right: 30px solid pink;}
+ }
+</style>
 </head>
 <body>
-<h1>This is my web site.</h1>
-<hr>
-
-WWW is <strong><h2>World</h2> <u>Wide</u> WEB.</strong> <br>
-
-<ul>
+<h1><a>This is my web site.</a></h1>
+<div id="container">
+<ol>
 <li><a href="./html.html">HTML</a></li>
 <li><a href="./css.html">CSS</a></li>
 <li><a href="./javascript.html">Javascript</a></li>
-</ul>
+</ol>
+
+<div>
 <h2>Welcome</h2>
 Hello, WEB!!
+</div>
+</div>
 </body>
 <div id="disqus_thread"></div>
 <script>
